@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ByteForge Studio - Web & App Development</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- SPLASH SCREEN -->
+    <!--SPLASH SCREEN-->
+    <div id="splash-screen">
+        <div class="splash-content">
+            <h1>Welcome to ByteForge Studio</h1>
+            <p>I'm Nibrassiddeen Musa Dauda, a passionate Web Developer and Tech Enthusiast.</p>
+            <p>I'm in Northwest University (NWU), Kano.</p>
+            <p>Faculty of Computing</p>
+            <p>Department of Information and Communication Technology(ICT)</p>
+            <button onclick="hideSplash()">Enter Site</button>
+        </div>
+    </div>
+    <!-- NAVIGATION -->
+
+    <header>
+        <div class="container nav-bar">
+            <h1 class="logo">ByteForge<span>Studio</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#trends">Trends</a></li>
+                    <li><a href="#" onclick="showCertificates()">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN SECTIONS -->
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Custom Web & App Development</h2>
+            <p>Transforming ideas into powerful digital experiences.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About ByteForge Studio</h2>
+            <p>We build sleek and functional digital experiences for the future.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section dark">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Responsive websites.</p>
+                </div>
+                <div class="card">
+                    <h3>App Development</h3>
+                    <p>Cross-platform apps.</p>
+                </div>
+                <div class="card">
+                    <h3>E-Commerce</h3>
+                    <p>Sell online securely.</p>
+                </div>
+                <div class="card">
+                    <h3>UI/UX Design</h3>
+                    <p>Design that works for humans.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trends" class="section">
+        <div class="container">
+            <h2>Latest Web Trends</h2>
+            <ul>
+                <li>🔥 Progressive Web Apps (PWAs)</li>
+                <li>⚙️ API Integration & Microservices</li>
+                <li>🤖 AI-powered Interfaces</li>
+                <li>🌩️ Serverless Architecture</li>
+                <li>📱 Cross-platform App Development</li>
+                <li>☁️ Cloud Solutions (Firebase, Supabase)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <button id="show-cert-btn">See My Certificates</button>
+    <section id="certificates" class="section" style="display: none;">
+        <div class="container">
+            <h2>My Certificates</h2>
+            <p>Click on any certificate to view it in details.</p>
+            <div class="cert-grid">
+                <!-- Sample certificate card structure. Add more like this -->
+                <div class="cert-card">
+                    <img src="ABeginners_Guide_to_MySQLi.jpg" alt="Certificate">
+                    <p class="cert-title">A Beginner Guide to MySQLi</p>
+                </div>
+                <div class="cert-card">
+                    <img src="AI_In_Data_Analysis.jpg" alt="Certificate 2">
+                    <p class="cert-title">AI in Data Analysis</p>
+                </div>
+                <div class="cert-card">
+                    <img src="AI_Powered_AB_Testing.jpg" alt="Certificate 3">
+                    <p class="cert-title">AI-Powered A/B Testing</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Angular.jpg" alt="Certificate 4">
+                    <p class="cert-title">Angular</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Brainstorm_with_AI.jpg" alt="Certificate 5">
+                    <p class="cert-title">Brainstorm with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="C_Intermediate.jpg" alt="Certificate 6">
+                    <p class="cert-title">C Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Coding_for_Data.jpg" alt="Certificate 7">
+                    <p class="cert-title">Coding for Data</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Coding_Foundation.jpg" alt="Certificate 8">
+                    <p class="cert-title">Coding Foundation</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Cpp.jpg" alt="Certificate 9">
+                    <p class="cert-title">C++ Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Csharp.jpg" alt="Certificate 10">
+                    <p class="cert-title">C# Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Data_Analytics_with_AI.jpg" alt="Certificate 11">
+                    <p class="cert-title">Data Analytics with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Diploma_in_Application_Development.jpg" alt="Certificate 12">
+                    <p class="cert-title">Diploma in Application Development Using PHP and MySQL</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Easy_Approach.jpg" alt="Certificate 13">
+                    <p class="cert-title">Easy Approach to Installing NGINX, PHP, MySQL, SSL and WordPress on Ubuntu</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Ethical_AI-Foundations.jpg" alt="Certificate 14">
+                    <p class="cert-title">Ethical AI Foundations</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Front_end_for_Beginners.jpg" alt="Certificate 15">
+                    <p class="cert-title">Front-end for Beginners</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Generative_AI_in_Practice.jpg" alt="Certificate 16">
+                    <p class="cert-title">Generative AI in Practice</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_C.jpg" alt="Certificate 17">
+                    <p class="cert-title">Introduction to C</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_Cpp.jpg" alt="Certificate 18">
+                    <p class="cert-title">Introduction to C++</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_Csharp.jpg" alt="Certificate 19">
+                    <p class="cert-title">Introduction to C#</p>
+                </div>
+                <div class="cert-card">
+                    <img src="AI_In_Data_Analysis.jpg" alt="Certificate 20">
+                    <p class="cert-title">AI in Data Analysis</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_Css.jpg" alt="Certificate 21">
+                    <p class="cert-title">Introduction_to_CSS</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_html.jpg" alt="Certificate 22">
+                    <p class="cert-title">Introduction to HTLM</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_java.jpg" alt="Certificate 23">
+                    <p class="cert-title">Introduction to Java</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_JavaScript.jpg" alt="Certificate 24">
+                    <p class="cert-title">Introduction to JavaScript</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_LLMs.jpg" alt="Certificate 25">
+                    <p class="cert-title">Introduction to LLMs</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_PHP.jpg" alt="Certificate 26">
+                    <p class="cert-title">Introduction to PHP</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_Python.jpg" alt="Certificate 27">
+                    <p class="cert-title">Introduction to Python</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Introduction_to_SQL.jpg" alt="Certificate 28">
+                    <p class="cert-title">Introduction to SQL</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Java_Intermediate.jpg" alt="Certificate 29">
+                    <p class="cert-title">Java Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="JavaScript_Intermediate.jpg" alt="Certificate 30">
+                    <p class="cert-title">JavaScript Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="ML_for_Beginner.jpg" alt="Certificate 31">
+                    <p class="cert-title">ML for Beginner</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Project_Planning_with_AI.jpg" alt="Certificate 32">
+                    <p class="cert-title">Project Planning with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Prompt_Engineering.jpg" alt="Certificate 33">
+                    <p class="cert-title">Prompt Engineering</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Python_Developer.jpg" alt="Certificate 34">
+                    <p class="cert-title">Python Developer</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Python_for_Beginners.jpg" alt="Certificate 35">
+                    <p class="cert-title">Python for Beginners</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Python_Intermediate.jpg" alt="Certificate 36">
+                    <p class="cert-title">Python Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Research_with_AI.jpg" alt="Certificate 37">
+                    <p class="cert-title">Research with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Responsive_Web_Design.jpg" alt="Certificate 38">
+                    <p class="cert-title">Responsive Web Design</p>
+                </div>
+                <div class="cert-card">
+                    <img src="SEO_with_AI.jpg" alt="Certificate 39">
+                    <p class="cert-title">SEO with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Social_Media_Marketing_with_AI.jpg" alt="Certificate 40">
+                    <p class="cert-title">Social Media Marketing with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="SQL_for_Beginners.jpg" alt="Certificate 41">
+                    <p class="cert-title">SQL for Beginners</p>
+                </div>
+                <div class="cert-card">
+                    <img src="SQL_Intermediate.jpg" alt="Certificate 42">
+                    <p class="cert-title">SQL Intermediate</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Tech_for_Everyone.jpg" alt="Certificate 42">
+                    <p class="cert-title">Tech for Everyone</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Think_Creativety_with_AI.jpg" alt="Certificate 44">
+                    <p class="cert-title">Think Creativety with AI</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Vibe_Coding.jpg" alt="Certificate 45">
+                    <p class="cert-title">Vibe Coding</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Web_Development.jpg" alt="Certificate 46">
+                    <p class="cert-title">Web Development</p>
+                </div>
+                <div class="cert-card">
+                    <img src="Write_with_AI.jpg" alt="Certificate 47">
+                    <p class="cert-title">Write with AI</p>  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section dark">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: nibraskhkhan2686@gmail.com</p>
+            <p>Email: byteforgestudio6@gmail.com</p>
+            <p>Phone: +234 9125595961</p>
+            <p>Phone: +234 8100929896</p>
+            <p>WhatsApp: <a href="https://wa.me/8142219215">Chat with me</a></p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <marquee>
+                <h2>&copy;2025 ByteForge Studio. Built with ❤ in Nigeria & Worldwide.</h2>
+            </marquee>
+        </div>
+    </footer>
+</body>
+
+</html>
